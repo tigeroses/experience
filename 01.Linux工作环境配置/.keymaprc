@@ -1,0 +1,3 @@
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+keysym Escape = Caps_Lock NoSymbol Caps_Lock
