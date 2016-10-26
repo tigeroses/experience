@@ -1,0 +1,4 @@
+Active power P
+Reactive power Q
+Apparent power S
+Power factoer
