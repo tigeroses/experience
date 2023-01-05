@@ -36,4 +36,17 @@ alias rd="rm -rf"
 alias t="tail"
 alias vi="/usr/bin/vim"
 alias py="python"
+alias tp="top -u $USER"
 
+function abp()
+{
+    ls $1 | sed "s:^:`pwd`/: ";
+}
+function mpr()
+{
+    mprof run -T 1 $1
+}
+function mpp()
+{
+    mprof plot $1 -o $2
+}
